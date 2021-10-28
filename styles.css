@@ -1,0 +1,43 @@
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 20px;
+  margin-right: 20px;
+  background-color: black;
+}
+
+nav>a{
+  text-decoration: none;
+  color: white;
+}
+nav>a:hover{
+  text-decoration: underline;
+  color:red;
+  background-color: white;
+}
+main{
+
+  display: flex;
+
+}
+div {
+  margin-top: 10px;
+  width: 100px;
+  flex: 2;
+}
+.panel{
+display: flex;
+flex-direction: column;
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+
+#rh{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
